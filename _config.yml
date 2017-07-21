@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "ashirgao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  ashirgao
-
+comments: true
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
