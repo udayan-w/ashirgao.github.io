@@ -220,4 +220,4 @@ Now for the final layers in our model.
 
 I hope this post has helped you improve your understanding of Convolution Neural Networks. Let me know what you think in the comments below!
 
-{% include disqus_comments.html %}
+
