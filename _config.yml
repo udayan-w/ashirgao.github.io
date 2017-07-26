@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   can help improve this task and ideas which are related to this task and you find exciting.
 
 url: "ashirgao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+
 github_username:  ashirgao
 comments: true
 # Minima date format
