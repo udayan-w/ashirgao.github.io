@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Paramters in a Convolutional Neural Network"
+title:  "Parameters in a Convolutional Neural Network"
 date:   2017-07-23 12:12:12 +0530
 ---
 
