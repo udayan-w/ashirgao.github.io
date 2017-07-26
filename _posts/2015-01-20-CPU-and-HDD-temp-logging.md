@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[pre-populating] CPU and HDD temperature logging script"
+title:  "[inital commit] CPU and HDD temperature logging script"
 date:   2017-07-23 12:12:12 +0530
 ---
 

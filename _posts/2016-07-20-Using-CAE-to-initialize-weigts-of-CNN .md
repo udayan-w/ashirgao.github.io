@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[pre-populating] Using a Convolutional Autoencoder to initialize weights of Convolutional Neural Network"
+title:  "[inital commit] Using a Convolutional Autoencoder to initialize weights of Convolutional Neural Network"
 date:   2017-07-23 12:12:12 +0530
 ---
 
