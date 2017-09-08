@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Parameters in a Convolutional Neural Network"
-date:   2017-07-24 12:12:12 +0730
+date:   2017-07-24 12:12:12 +0530
 ---
 
 A convolutional neural network (CNN) ! From my experience, the deeper (:P) you study them, the more they amaze you with their capability and awe you with their structure (which you thought you already knew). 
