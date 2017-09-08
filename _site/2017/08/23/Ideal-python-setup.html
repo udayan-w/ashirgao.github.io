@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>An ideal python setup for data science &amp; machine learning [using virtualenv]</title>
+  <meta name="description" content="My data science and deep learning machine toolkit mainly includes the following python libraries :">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2017/08/23/Ideal-python-setup.html">
+  <link rel="alternate" type="application/rss+xml" title="ashirgao.github.io" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/">ashirgao.github.io</a>
+  
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+            <a class="page-link" href="/about/">About</a>
+            
+          
+            
+            
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">An ideal python setup for data science &amp; machine learning [using virtualenv]</h1>
+    <p class="post-meta">
+      <time datetime="2017-08-23T10:12:12+05:30" itemprop="datePublished">
+        
+        Aug 23, 2017
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>My data science and deep learning machine toolkit mainly includes the following python libraries :</p>
+
+<ul>
+  <li><a href="http://www.numpy.org/">numpy</a></li>
+  <li><a href="http://pandas.pydata.org/">pandas</a></li>
+  <li><a href="http://scikit-learn.org/stable/">scikit-learn</a></li>
+  <li><a href="https://matplotlib.org/">matplotlib</a></li>
+  <li><a href="http://jupyter.org/">jupyter</a></li>
+  <li><a href="http://deeplearning.net/software/theano/">theano</a></li>
+  <li><a href="https://www.tensorflow.org/">tensorflow</a></li>
+  <li><a href="https://keras.io/">keras</a></li>
+</ul>
+
+<p>In this post, I will describe the Python setup on my machine (currently running Ubuntu 16.04). This setup helps me manage my projects and their library dependencies easily. Some projects rely on a specific version of a library. The setup described below takes care of such dependencies too. It is very easy to setup and is highly effecient. This is particularly helpful when multiple users are sharing the same machine.</p>
+
+<hr />
+<h4 id="extra---how-to-change-global-default-python-interpreter-to-python3">EXTRA - how to change global default python interpreter to python3</h4>
+<p>One of the way you can change your default python interpreter to python3 is by appending <code class="highlighter-rouge">alias python=python3</code>and <code class="highlighter-rouge">alias pip=pip3</code> to your <code class="highlighter-rouge">.bashrc</code> file. You will find this (hidden) file in your home directory and can open it by</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ nano ~/.bashrc
+</code></pre>
+</div>
+<p>After appending <code class="highlighter-rouge">alias python=python3</code>and <code class="highlighter-rouge">alias pip=pip3</code>  press <code class="highlighter-rouge">Ctrl+O</code> to save changes and <code class="highlighter-rouge">Ctrl+X</code> to exit.</p>
+
+<hr />
+
+<p><br /><br />
+To manage all my python libraries I use yet another python library called <code class="highlighter-rouge">virtualenv</code>. Let us first study how python packages are organised in your system.</p>
+
+<h1 id="before">Before</h1>
+<p><img src="/resources/venv1.jpg" alt="virtualenv1" /></p>
+
+<p>In the above representation of your system, the area in the right represents the user space ie. consider home directory (<code class="highlighter-rouge">$ cd ~</code>) and further  while the one on the left represents the system space. Ubuntu 16.04 systems come pre-installed with both python 2.7 and python 3.5 interpreters. When you run your programs using <code class="highlighter-rouge">python</code> interpreter they point to <code class="highlighter-rouge">/usr/bin/python</code> which in turn points to the global copy of the python2.7 interpreter. (Can be changed as shown in the EXTRA section above)</p>
+
+<p><code class="highlighter-rouge">pip</code> is a package manager for python. Your system has a <code class="highlighter-rouge">pip2</code> for python2 and a <code class="highlighter-rouge">pip3</code> for python3. The yellow rectangles in the diagram represent the packages installed for the respective python interpreter. By default <code class="highlighter-rouge">pip</code> points to <code class="highlighter-rouge">pip2</code>. (Can be changed as shown in the EXTRA section above)</p>
+
+<p>Say you have started working on your first project and you need to install a package, say numpy (just an example for this deep-dive, replace “numpy” with any package you wish to install), you type in:</p>
+
+<p><code class="highlighter-rouge">sudo pip install numpy</code> # Installs numpy for default interpreter</p>
+
+<p>Note: <code class="highlighter-rouge">sudo</code> is required because you are adding it as a global package</p>
+
+<p>When you run this command, a  version of <code class="highlighter-rouge">numpy</code> gets installed globally. Now for every subsequent projects you will use this exact version. Say 3 months down the line, a new version of <code class="highlighter-rouge">numpy</code> is available and this update brings major performance benefits along with some API changes. Now you wish to benefit from the performance upgrade for your new upcoming projects but if you choose to install this new updated <code class="highlighter-rouge">numpy</code> you risk breaking your existing projects as your previous projects depend on the previous API. You are forced to use an obsolete package in spite of a new updated version of the package being available. This is a MAJOR problem !</p>
+
+<p>Let us now see how <code class="highlighter-rouge">virtualenv</code> will help.</p>
+
+<h1 id="after">After</h1>
+<p><img src="/resources/venv2.jpg" alt="virtualenv2" /></p>
+
+<p><code class="highlighter-rouge">virtualenv</code> enables us to create multiple mini-python environments which are isolated from the global python environment as well as from each other. My system currently contains over 23 virtualenvs having python3 interpreter and 4 with the python2 interpreter. YES creating a new virtualenv for every project is overkill but I do it anyway. Each <code class="highlighter-rouge">virtualenv</code> has its own copy of packages(You can install different packages/libraries in different virtual environments). This helps alleviate the previous problem. My old project will run in one environment containing an old version of <code class="highlighter-rouge">numpy</code> while my new projects will run in another virtualenv which contains the newer verion of <code class="highlighter-rouge">numpy</code>. As I am starting my new project I can write code in accordance to the new API and reap performance of this new updated verion.</p>
+
+<p>Let us see steps to setup <code class="highlighter-rouge">virtualenv</code>. We will install it as a global library. So,</p>
+
+<p><code class="highlighter-rouge">sudo pip install virtualenv</code> # Installs virtualenv for default interpreter</p>
+
+<p>Note: <code class="highlighter-rouge">sudo</code> is required because you are adding it as a global package</p>
+
+<p>Now I will <code class="highlighter-rouge">cd</code> into my project directory. Then I will execute:</p>
+
+<p><code class="highlighter-rouge">$ virtualenv venv</code> # “venv” is the name of my <code class="highlighter-rouge">virtualenv</code>.</p>
+
+<p>Check my output</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>abhishek.shirgaokar@tech:~/workspace$ mkdir my_project
+abhishek.shirgaokar@tech:~/workspace$ cd my_project/
+abhishek.shirgaokar@tech:~/workspace/my_project$ virtualenv venv
+New python executable in /home/abhishek.shirgaokar/workspace/my_project/venv/bin/python
+Installing setuptools, pip, wheel...done.
+abhishek.shirgaokar@tech:~/workspace/my_project$ 
+</code></pre>
+</div>
+
+<p>You  can make the <code class="highlighter-rouge">virtualenv</code> more representative of its purpose by naming it appropriately. Executing this creates a new folder named same as the <code class="highlighter-rouge">virtualenv</code> name. This folder contains a local copy of the respective global copy of the python interpreter and is initalized with no packages/libraries installed by default. Now execute:</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="err">$</span> <span class="n">which</span> <span class="n">python</span>
+<span class="err">$</span> <span class="n">source</span> <span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">activate</span>	<span class="c">#"venv" is the name of your virtual environment</span>
+<span class="err">$</span> <span class="n">which</span> <span class="n">python</span> 
+</code></pre>
+</div>
+<p>Check my output</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>abhishek.shirgaokar@tech:~/workspace/my_project$ which python
+/usr/bin/python
+abhishek.shirgaokar@tech:~/workspace/my_project$ source venv/bin/activate
+(venv) abhishek.shirgaokar@tech:~/workspace/my_project$ which python
+/home/abhishek.shirgaokar/workspace/my_project/venv/bin/python
+(venv) abhishek.shirgaokar@tech:~/workspace/my_project$ 
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">which python</code> points to the exact python interpreter which will be used to run python file. The first time you run  <code class="highlighter-rouge">which python</code>, it shows that it points to the global copy of python. Now you will run <code class="highlighter-rouge">source venv/bin/activate</code>, which will make your local copy of the python interpreter as the default interpreter. Notice <code class="highlighter-rouge">(venv)</code>. This shows that you are now inside the virtual environment. Running  <code class="highlighter-rouge">which python</code> again verifies that you are indeed using a local copy of the python interpreter.</p>
+
+<p>Now that we are inside the virtual environment we can install packages in a way similar to before.</p>
+
+<p><code class="highlighter-rouge">$ pip install numpy</code></p>
+
+<p>Notice: We do not require <code class="highlighter-rouge">sudo</code> now as we are installing the package inside the virtualenv.</p>
+
+<p>To exit a virtual environment just execute:</p>
+
+<p><code class="highlighter-rouge">$ deactivate</code></p>
+
+<p>on the terminal. Notice <code class="highlighter-rouge">(venv)</code> is now gone which indicates you are out of the virtual environment.</p>
+
+<hr />
+<h4 id="extra---installing-a-particular-version-of-a-package-using-pip">EXTRA - installing a particular version of a package using pip</h4>
+
+<p>Open <code class="highlighter-rouge">https://pypi.python.org/simple/numpy</code> in your browser by replacing “numpy” with your package of choice. You will now see a list of file representing the latest as well as previous versions of that package.</p>
+
+<p>To install a particular verion of a package, execute:</p>
+
+<p><code class="highlighter-rouge">$ pip install numpy==1.10.2</code> 
+Here “1.10.2” is the version I choose to install.</p>
+
+<hr />
+<h4 id="extra---creating-a-matching-virtual-environment-on-another-machine">EXTRA - creating a matching virtual environment on another machine</h4>
+
+<p>Maybe you are a project manager and you have created a virtual environment followed by installing the correct version of certain packages after carefully considering their stability and their inter-compatibility. Now you want to share this setting with your team members so they can easily replicate your setup.</p>
+
+<p>A elegant way of doing this is to run the following on your system:
+<code class="highlighter-rouge">$ pip freeze &gt; req.txt</code></p>
+
+<p>This will create a file named “req.txt” containing list of all packages and their exact versions. Now, for those tryinng to replicate your setup, they should create a virtual environment and jump inside it followed by doing a</p>
+
+<p><code class="highlighter-rouge">pip install -r /path/to/req.txt</code></p>
+
+<p>This will in one command create a exact replica of your environment</p>
+
+<hr />
+<p><br /><br /></p>
+
+<p>I hope this has been helpful enough! Comment below for any topics you want me to deep dive into and simplify.</p>
+
+
+  </div>
+
+    
+
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">ashirgao.github.io</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Abhishek Shirgaokar
+            
+            </li>
+            
+            <li><a href="mailto:abhishek.shirgaokar at gmail dot com">abhishek.shirgaokar at gmail dot com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ashirgao"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">ashirgao</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Hey! I&#39;m using this site to document some of my interesting projects. If you  have landed on this page looking for something, I hope you find it and it serves your purpose. Do contact me in case of any corrections on this page, suggestions that can help improve this task and ideas which are related to this task and you find exciting.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

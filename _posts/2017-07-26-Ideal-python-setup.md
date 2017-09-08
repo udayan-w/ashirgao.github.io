@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An ideal python setup for data science & machine learning [using virtualenv]"
-date:   2017-07-23 12:12:12 +0530
+date:   2017-08-23 12:12:12 +0730
 ---
 
 My data science and deep learning machine toolkit mainly includes the following python libraries :
