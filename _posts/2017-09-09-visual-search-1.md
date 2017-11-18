@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VISUAL SEARCH using Deep Learning (pt. 0)"
+title:  "Visual Search using Deep Learning (pt. 0) - Introduction"
 date:   2017-09-09 12:12:12 +0530
 ---
 <br>
