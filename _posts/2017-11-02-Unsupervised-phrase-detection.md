@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Unsupervised syntactical tokenization"
+title:  "Unsupervised Syntactical Tokenization"
 date:   2017-11-02 12:12:12 +0530
 ---
 
