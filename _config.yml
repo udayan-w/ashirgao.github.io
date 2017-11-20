@@ -1,10 +1,10 @@
-title: ashirgao.github.io
+title: Abhishek Shirgaokar's Blog
 author: Abhishek Shirgaokar
 email: abhishek.shirgaokar at gmail dot com
 description: > # this means to ignore newlines until "baseurl:"
-  Hey! I'm using this site to document some of my interesting learnings. If you 
-  have landed on this page looking for something, I hope you find it. Contact me in case of any corrections or if you have an interesting 
-  project idea you'd like to collaborate on.
+  Hey! Find explained implementations of many cutting edge deep learning techniques here alongside 
+  other artifical intelligence & machine learning (ML) posts. Computer Vision, Natural Langauge Processing, 
+  Linux scripts, Data Science workflows and more.....
 
 url: "ashirgao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
