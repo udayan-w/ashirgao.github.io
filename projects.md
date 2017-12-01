@@ -104,7 +104,7 @@ BAD
 <br><br>
 - **Visual Search** - This project was done during my time as a Data Science intern at Merkle-Sokrati. This involved implementing a three way siamese network where the replicated network itself is a combination of a deep and multiple shallow networks. This network is defined here :<br> [https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42945.pdf](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42945.pdf) 
 <br>
-This task was implemented with a apparel recommendation application in mind. Details of this project can be found in my 4 part writeup starting [here](http://127.0.0.1:4000/2017/09/09/visual-search-1.html).
+This task was implemented with a apparel recommendation application in mind. Details of this project can be found in my 4 part writeup starting [here](https://ashirgao.github.io/2017/09/09/visual-search-1.html).
 <br><br>
 
 ***
