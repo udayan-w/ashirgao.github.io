@@ -113,140 +113,36 @@ for i in check:
         plt.show()
 ```
 
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_1.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_2.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_3.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_4.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_5.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_6.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_8.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_9.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_10.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_11.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_12.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_13.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_15.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_16.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_17.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_18.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_19.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_20.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_22.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_23.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_24.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_25.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_26.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_27.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_29.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_30.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_31.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_32.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_33.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_34.png)
-
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_1.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_2.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_3.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_4.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_5.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_6.png)
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_8.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_9.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_10.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_11.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_12.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_13.png)
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_15.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_16.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_17.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_18.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_19.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_20.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_22.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_23.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_24.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_25.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_26.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_27.png) 
+<br><br>
+
+******************************************
+<br><br>
+
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_29.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_30.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_31.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_32.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_33.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_21_34.png)
+<br><br>
+
+******************************************
+<br><br>
 
 ### The GOOD
 
@@ -270,301 +166,71 @@ for i in check:
 
 
 
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_1.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_2.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_3.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_4.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_5.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_7.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_8.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_9.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_10.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_11.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_13.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_14.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_15.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_16.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_17.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_19.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_20.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_21.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_22.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_23.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_25.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_26.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_27.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_28.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_29.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_31.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_32.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_33.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_34.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_35.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_37.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_38.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_39.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_40.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_41.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_43.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_44.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_45.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_46.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_47.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_49.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_50.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_51.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_52.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_53.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_55.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_56.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_57.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_58.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_59.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_61.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_62.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_63.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_64.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_65.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_67.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_68.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_69.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_70.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_71.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_73.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_74.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_75.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_76.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_77.png)
-
-
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_1.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_2.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_3.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_4.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_5.png)    
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_7.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_8.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_9.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_10.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_11.png)
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_13.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_14.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_15.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_16.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_17.png)
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_19.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_20.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_21.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_22.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_23.png)
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_25.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_26.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_27.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_28.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_29.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_31.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_32.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_33.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_34.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_35.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_37.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_38.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_39.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_40.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_41.png)
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_43.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_44.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_45.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_46.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_47.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_49.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_50.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_51.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_52.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_53.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_55.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_56.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_57.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_58.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_59.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_61.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_62.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_63.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_64.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_65.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_67.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_68.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_69.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_70.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_71.png) 
+<br><br>
+
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_73.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_74.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_75.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_76.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_23_77.png) 
+<br><br>
+
+******************************************
+<br><br>
 ### The BAD
 
 See below some of the particularly icorrect recommendations.
@@ -589,50 +255,17 @@ for i in check:
 
 
 
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_1.png)
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_1.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_2.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_3.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_4.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_5.png)
+<br><br>
 
+******************************************
+<br><br>
+![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_7.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_8.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_9.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_10.png) ![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_11.png) 
+<br><br>
 
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_2.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_3.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_4.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_5.png)
-
-
-    ******************************************
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_7.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_8.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_9.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_10.png)
-
-
-
-![png](/resources/vectorizing_and_matching_files/vectorizing_and_matching_25_11.png)
-
-
+******************************************
+<br><br>
 # Quick drawbacks of current solution
-
 Some of the readily observed issues in the recommendation model are :
 - The embedding sometimes encodes the model's face as a feature. Thus, in some cases suggestions for an item is some other random item worn by the same model.
 - Similarly, the embedding seems to encode the pose of a model and makes suggestions accordingly. 

@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+<center><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAzrAAAAJDQ5MzY4NDdmLTg3MjAtNDlmYS04Yjk4LWJjYTI2Nzc1ODIxMw.jpg" class="img-circle" alt="Abhishek" width="200" height="200"> </center><br><br>
 
 I, **Abhishek**, am a Data Scientist, currently developing intelligent data-driven applications at [OnlineSales.ai](https://www.onlinesales.ai) as well as working as a Research Assistant to Prof. D.T. Mane. I have previously interned at [Sokrati](https://www.sokrati.com) and [IBM ISL](https://www.ibm.com/in-en/) to develop applications in Computer Vision and Natural Language using cutting edge tools and techniques. 
 
